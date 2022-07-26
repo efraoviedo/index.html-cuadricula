@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(25, 100, 120, 0.5);
+}
+
+
+
+p {
+    margin: 0 0 6px 0;
+    padding: 0;
+
+}
+h1 :hover {
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+
+
+canvas {
+    background-color: #d8cfcf;;
+    border: solid 19px darkblue;;
+    border-radius: 21px;
+}
+
+    #contenedorCanvas{
+        text-align: center;
+      }
+h1 {
+    font-family: Pacifico, serif ;
+  color: #bc0a0a;
+  font-size: 2.5em;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 0;
+  padding: 0;
+
+}
+     
+@keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+      }
+    }
+
+ #btninput {
+    width: 550px;
+    margin: 10px 199px 10px 199px;
+    padding: 20px;
+    border: 6px solid #410851;
+    border-radius: 3px;
+    background: #15426a;
+    color: #e80909;
+    font-size: 22px;
+    display: inline;
+ } 
+ 
+ .contentImput {
+    justify-items: center;
+    align-items: center;
+ }
